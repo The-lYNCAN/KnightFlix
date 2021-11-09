@@ -1,0 +1,39 @@
+.con{
+    // width: 200%;
+    width: 100%;
+    height: 240px;
+    margin-top: 5%;
+    overflow: hidden;
+    // background-color: pink;
+}
+
+.super{
+
+}
+
+.slider{
+    overflow-x: scroll;
+    height: 100%;
+    display: flex;
+    width: 84vw;
+}
+
+.slide{
+    height: 100%;
+    // height: 100%;
+    overflow-x: auto;
+    flex-direction: row;
+    
+}
+
+@media (max-width: 906px) {
+    .slider{
+        width: 90vw;
+    }
+}
+
+@media (min-width: 1290px) {
+    .slider{
+        width: 68.7vw;
+    }
+}

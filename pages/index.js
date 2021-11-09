@@ -7,8 +7,13 @@ export default function Home() {
   return (
     <div className={styles.con}>  
       <NavBar />
+      <div className={styles.fake}>
+
+      </div>
       <div className={styles.uppers}>
-        <div className={styles.navbar}></div>
+        <div className={styles.navbar}>
+          <input placeholder="Search" />
+        </div>
         <div className={styles.com}>
           <TodaysTrends />
           <Suggestions />

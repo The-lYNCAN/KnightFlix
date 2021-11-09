@@ -8,11 +8,21 @@
   display: flex;
 }
 
+.fake{
+  height: 100vh;
+  width: 90px;
+}
+
 .com{
   display: flex;
-  width: 100%;
+  width: 90%;
+  margin-left: 4%;
   height: 100%;
-  padding-left: 90px;
+  justify-content: space-evenly;
+  /* padding-left: 90px; */
+  /* padding-left: auto; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .uppers{
@@ -20,8 +30,17 @@
   /* height: 100%; */
   height: auto;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar{
   height: 100px;
+  margin-left: 91px;
+}
+
+@media (max-width: 906px) {
+  .fake{
+    display: none;
+  }
 }

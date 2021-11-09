@@ -1,9 +1,12 @@
 import styles from '../../../styles/index/ttrends.module.scss'
+import Hero from './hero'
+import Row from './row'
 
 const TodaysTrends = () => {
     return (
         <div className={styles.con}>
-            <h1>Box</h1>
+            <Hero />
+            <Row />
         </div>
     )
 }

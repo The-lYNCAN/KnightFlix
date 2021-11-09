@@ -1,0 +1,13 @@
+.con{
+    background-color: red;
+    // width: 28%;
+    // flex-grow: 1;
+    width: 400px;
+    
+}
+
+@media (max-width: 1290px) {
+    .con{
+        display: none;
+    }
+}

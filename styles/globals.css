@@ -18,7 +18,8 @@ a {
 
 html, body{
   height: 100%;
-  background: #1a1a1e;
+  /* background: #302e31; */
+  background-color: #21222a;
   /* overflow: hidden; */
 }
 

@@ -12,7 +12,7 @@ const Hero = () => {
 
                 </div> */}
                 <div className={styles.title}>
-                    <h1>Iron Man</h1>
+                    <h1>The Eternals</h1>
                     <div>
                         <button>Watch Now</button>
                         <button className={styles.shareBtn}><FontAwesomeIcon icon={faShare} /></button>

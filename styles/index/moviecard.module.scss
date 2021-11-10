@@ -1,7 +1,8 @@
 .con{
-    width: 100%;
+    width: 360px;
+    scroll-snap-align: start;
     height: 100%;
-    margin-right: 5%;
+    margin-right: 1%;
     background-color: chartreuse;
     h1{
         margin: 0;
@@ -10,5 +11,13 @@
 
 .cardImg{
     height: 100%;
-    width: 340px;   
+    // width: 340px;   
+}
+
+@media (max-width: 576px) {
+    .con{
+        width: 220px;
+        height: 78%;
+        margin-right: 3%;
+    }
 }

@@ -6,7 +6,11 @@ const TodaysTrends = () => {
     return (
         <div className={styles.con}>
             <Hero />
-            <Row />
+            <div>
+                <Row />
+                <Row />
+                <Row />
+            </div>
         </div>
     )
 }

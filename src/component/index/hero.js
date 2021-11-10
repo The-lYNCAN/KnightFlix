@@ -15,7 +15,7 @@ const Hero = () => {
                     <h1>The Eternals</h1>
                     <div>
                         <button>Watch Now</button>
-                        <button className={styles.shareBtn}><FontAwesomeIcon icon={faShare} /></button>
+                        <button className={styles.shareBtn}><FontAwesomeIcon id={styles.btn} icon={faShare} /></button>
                     </div>
                 </div>
             </div>
